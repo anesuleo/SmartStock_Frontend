@@ -15,8 +15,6 @@ class MyTabView(customtkinter.CTkTabview):
         self.label = customtkinter.CTkLabel(master=self.tab("Inventory"))
         self.label.grid(row=0, column=0, padx=20, pady=10)
 
-
-
 class App(customtkinter.CTk):
     def __init__(self):
         super().__init__()
