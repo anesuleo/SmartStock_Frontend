@@ -1,7 +1,6 @@
 import requests
 
-BASE_URL = "http://localhost:8002"   # change to your actual port
-
+BASE_URL = "http://localhost:8002"
 class InventoryService:
 
     @staticmethod
