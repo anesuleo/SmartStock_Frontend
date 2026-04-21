@@ -1,6 +1,6 @@
 import requests
 
-BASE_URL = "http://localhost:8002"
+BASE_URL = "http://34.226.237.66:8002"
 class InventoryService:
 
     @staticmethod
