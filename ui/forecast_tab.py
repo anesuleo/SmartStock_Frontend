@@ -11,8 +11,8 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.patches import FancyBboxPatch
 import matplotlib.patheffects as pe
 
-FORECASTING_URL = "http://localhost:8003"
-INVENTORY_URL   = "http://localhost:8002"
+FORECASTING_URL = "http://34.226.237.66:8003"
+INVENTORY_URL   = "http://34.226.237.66:8002"
 
 # ── Colour palette ──────────────────────────────────────────────────
 BG        = "#0f1117"

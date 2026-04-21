@@ -2,7 +2,7 @@ import requests
 from typing import Optional
 
 # Base URL of the authentication microservice
-AUTH_BASE_URL = "http://localhost:8001"
+AUTH_BASE_URL = "http://34.226.237.66:8001"
 
 
 class AuthService:
