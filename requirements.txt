@@ -11,3 +11,5 @@ python-dotenv>=1,<2           # Environment variable loader (.env)
 customtkinter
 requests
 matplotlib
+serial
+pyserial
