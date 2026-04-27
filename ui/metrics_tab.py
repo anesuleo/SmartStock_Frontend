@@ -83,9 +83,6 @@ class MetricsTab:
             text_color=SUBTEXT, font=ctk.CTkFont(size=11)
         ).pack(pady=(0, 8))
 
-        # Auto-load on open
-        self.load_threaded()
-
     # ── Card factory ─────────────────────────────────────────────────
     def _make_card(self, parent, title, value, accent):
         frame = ctk.CTkFrame(parent, fg_color=PANEL, corner_radius=10)
